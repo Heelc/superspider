@@ -3,7 +3,7 @@ VENV=${PROJ_DIR}/.env
 PROJ_NAME=SUPERSPIDER
 
 if [ ! -e ${VENV} ];then
-    virtualenv --prompt "(${PROJ_NAME})" ${VENV} -p $(type -p python2.7)
+    virtualenv --prompt "(${PROJ_NAME})" ${VENV} 
 fi
 
 source ${VENV}/bin/activate 
